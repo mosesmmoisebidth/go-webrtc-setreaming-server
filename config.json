@@ -1,13 +1,108 @@
 {
   "server": {
-    "http_port": ":8083",
+    "http_port": ":8084",
     "ice_servers": ["stun:stun.l.google.com:19302"]
   },
   "streams": {
-    "H264_AAC": {
+    "camera 1": {
       "on_demand": false,
       "disable_audio": true,
-      "url": "rtsp://admin:admin@176.117.205.3:5541/video1"
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/902"
+    },
+    "camera 2": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/802"
+    },
+    "camera 3": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/702"
+    },
+    "camera 4": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/602"
+    },
+    "camera 5": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/502"
+    },
+    "camera 6": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/402"
+    },
+    "camera 7": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/302"
+    },
+    "camera 9": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/102"
+    },
+    "camera 10": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/1002"
+    },
+    "camera 11": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/1102"
+    },
+    "camera 12": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/1202"
+    },
+    "camera 13": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/1302"
+    },
+    "camera 14": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/1402"
+    },
+    "camera 15": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/1802"
+    },
+    "camera 16": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2102"
+    },
+    "camera 17": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2202"
+    },
+    "camera 18": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2302"
+    },
+    "camera 19": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2402"
+    },
+    "camera 20": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2602"
+    },
+    "camera 21": {
+      "on_demand" : false,
+      "disable_audio": true,
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2702"
     }
   }
 }

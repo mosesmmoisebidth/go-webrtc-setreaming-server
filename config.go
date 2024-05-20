@@ -205,7 +205,7 @@ func (element *ConfigST) clAd(suuid string) (string, chan av.Packet) {
 	element.mutex.Lock()
 	defer element.mutex.Unlock()
 	cuuid := pseudoUUID()
-	ch := make(chan av.Packet, 100)
+	ch := make(chan av.Packet, 700)
 	element.Streams[suuid].Cl[cuuid] = viewer{c: ch}
 	return cuuid, ch
 }

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"encoding/json"
 	"log"
 	"net/http"
@@ -58,6 +59,7 @@ func HTTPAPIServerIndex(c *gin.Context) {
 //HTTPAPIServerStreamPlayer stream player
 func HTTPAPIServerStreamPlayer(c *gin.Context) {
 	_, all := Config.list()
+	fmt.Println("the uuid param is: ", c.Param("uuid"));
 	sort.Strings(all)
 	c.HTML(http.StatusOK, "player.tmpl", gin.H{
 		"port":     Config.Server.HTTPPort,
@@ -170,7 +172,6 @@ func CORSMiddleware() gin.HandlerFunc {
 		c.Next()
 	}
 }
-
 type Response struct {
 	Tracks []string `json:"tracks"`
 	Sdp64  string   `json:"sdp64"`
