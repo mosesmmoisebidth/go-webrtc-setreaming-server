@@ -72,37 +72,7 @@
     "camera 15": {
       "on_demand" : false,
       "disable_audio": true,
-      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/1802"
-    },
-    "camera 16": {
-      "on_demand" : false,
-      "disable_audio": true,
-      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2102"
-    },
-    "camera 17": {
-      "on_demand" : false,
-      "disable_audio": true,
-      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2202"
-    },
-    "camera 18": {
-      "on_demand" : false,
-      "disable_audio": true,
-      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2302"
-    },
-    "camera 19": {
-      "on_demand" : false,
-      "disable_audio": true,
-      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2402"
-    },
-    "camera 20": {
-      "on_demand" : false,
-      "disable_audio": true,
-      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2602"
-    },
-    "camera 21": {
-      "on_demand" : false,
-      "disable_audio": true,
-      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/2702"
+      "url": "rtsp://user:Ju57u2@OK@192.168.1.64:554/Streaming/Channels/1402"
     }
   }
 }
